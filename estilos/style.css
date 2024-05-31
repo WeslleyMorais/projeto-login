@@ -9,6 +9,7 @@ Paleta de cores
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 main{
@@ -21,8 +22,8 @@ main{
 
 #login{
     background-color: white;
-    width: 350px;
-    height: 600px;
+    width: 300px;
+    height: 510px;
 
     margin: auto;
     position: absolute;
@@ -37,14 +38,14 @@ main{
 
 #imagem{
     border-radius: 15px 15px 0px 0px;
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 205px;
     background-image: url(../imagens/pexels-intan-payung-3809692-10541466.jpg);
     background-position: center center;
 }
 
 #formulario{
-    padding: 20px;
+    padding: 5px;
 }
 
 h1{
@@ -55,18 +56,19 @@ h1{
 
 p{
     text-align: left;
+    padding: 5px;
 }
 
 form{
 
-    margin: 10px;
+    margin: 15px;
 }
 
 input{
     position: absolute;
     right: 1px;
     display: inline-block;
-    width: 230px;
+    width: 210px;
     height: 35px;
     border: 1px solid #5f2c82;
     border-radius: 5px;
@@ -78,7 +80,7 @@ label{
     display: inline-block;
     color: white;
     background: #5f2c82;
-    margin: 5px;
+    margin: 4px;
     
 }
 
@@ -86,9 +88,10 @@ label{
     padding: 1px 0px 0px 0px;
     margin: 10px 0px;
     background-color: #5f2c82;
-    width: 290px;
+    width: 260px;
     position: relative;
     border-radius: 5px;
+    border: 1px solid #5f2c82;
 }
 
 #eniar{
