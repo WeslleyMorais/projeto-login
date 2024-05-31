@@ -20,6 +20,10 @@
     #formulario{
         float: right;
         width: 70%;
+        margin-top: 100px;
+    }
+    p{
+        margin: 20px;
     }
 
     form{
@@ -37,18 +41,21 @@
         width: 950px;
     }
     #imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
-        border-radius: 15px 0px 0px 15px;
+        border-radius: 0px 15px 15px 0px;
         background-size: cover;
     
     }
     #formulario{
-        float: right;
+        float: left;
         width: 50%;
+        margin-top: 100px;
     }
-
+    p{
+        margin: 20px;
+    }
     form{
         display: block;
         margin: auto;
