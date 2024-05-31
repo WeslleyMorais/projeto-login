@@ -5,4 +5,93 @@ Paleta de cores
     Verde: #49a09d
     Lilas: #5f2c82
 */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
 
+main{
+    background-color: #5f2c82;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+}
+
+#login{
+    background-color: white;
+    width: 350px;
+    height: 600px;
+
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.671);
+
+
+}
+
+#imagem{
+    border-radius: 15px 15px 0px 0px;
+    width: 350px;
+    height: 300px;
+    background-image: url(../imagens/pexels-intan-payung-3809692-10541466.jpg);
+    background-position: center center;
+}
+
+#formulario{
+    padding: 20px;
+}
+
+h1{
+    font-weight: 800;
+    text-align: center;
+    padding: 10px;
+}
+
+p{
+    text-align: left;
+}
+
+form{
+
+    margin: 10px;
+}
+
+input{
+    position: absolute;
+    right: 1px;
+    display: inline-block;
+    width: 230px;
+    height: 35px;
+    border: 1px solid #5f2c82;
+    border-radius: 5px;
+}
+
+label{
+    padding-left: 10px;
+    align-items: center;
+    display: inline-block;
+    color: white;
+    background: #5f2c82;
+    margin: 5px;
+    
+}
+
+.icon{
+    padding: 1px 0px 0px 0px;
+    margin: 10px 0px;
+    background-color: #5f2c82;
+    width: 290px;
+    position: relative;
+    border-radius: 5px;
+}
+
+#eniar{
+    right: 30px;
+    background-color: #5f2c82;
+}
