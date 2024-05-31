@@ -64,6 +64,7 @@ h1{
 p{
     text-align: left;
     padding: 5px;
+    font-size: 15px;
 }
 
 form{
@@ -73,35 +74,42 @@ form{
 
 input{
     position: absolute;
-    right: 1px;
+    right: 0px;
     display: inline-block;
-    width: 210px;
-    height: 35px;
+    width: 220px;
+    height: 34px;
     border: 1px solid #5f2c82;
     border-radius: 5px;
 }
 
 label{
     padding-left: 10px;
-    align-items: center;
-    display: inline-block;
     color: white;
     background: #5f2c82;
     margin: 4px;
+    display: none;
     
 }
 
 .icon{
-    padding: 1px 0px 0px 0px;
-    margin: 10px 0px;
+    padding: 0px 0px 0px 0px;
+   
     background-color: #5f2c82;
     width: 260px;
+    height: 35px;
     position: relative;
     border-radius: 5px;
+    color: white;
+    margin: 15px 0px;
+    
    
+}
+span{
+    padding: 5px 8px;
 }
 
 #enviar{
+    padding: 5px;
     right: 0px;
     color: white;
     font-weight: 600;
@@ -110,4 +118,13 @@ label{
     position: relative;
     border-radius: 30px;
     
+}
+
+a{
+    display: inline-block;
+}
+
+#container{
+    text-align: center;
+    margin: -5px 0px 0px 0px;
 }
