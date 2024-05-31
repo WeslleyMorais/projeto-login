@@ -31,6 +31,9 @@
         margin: auto;
         padding-left: 22%;
     }
+    #container{
+        margin: 5px 0px 0px 0px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -60,6 +63,9 @@
         display: block;
         margin: auto;
         padding-left: 22%;
+    }
+    #container{
+        margin: 5px 0px 0px 0px;
     }
 
 }
