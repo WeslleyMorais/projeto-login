@@ -120,6 +120,13 @@ span{
     
 }
 
+#enviar:hover{
+    background-color: #5fccc8;
+    color: #5f2c82;
+    cursor: pointer;
+
+}
+
 a{
     display: inline-block;
     color: #5f2c82;
