@@ -12,6 +12,11 @@ Paleta de cores
     box-sizing: border-box;
 }
 
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+
 main{
     background-color: #5f2c82;
     width: 100vw;
@@ -66,7 +71,7 @@ form{
 
 input{
     position: absolute;
-    right: 1px;
+    right: 0px;
     display: inline-block;
     width: 210px;
     height: 35px;
@@ -91,7 +96,7 @@ label{
     width: 260px;
     position: relative;
     border-radius: 5px;
-    border: 1px solid #5f2c82;
+   
 }
 
 #eniar{
